@@ -105,7 +105,6 @@ public class DebugUnemploymentPage {
                     System.out.println("ID: " + id);
                     System.out.println("Displayed: " + displayed);
                 } catch (Exception e) {
-                    // Skip stale elements
                 }
             }
 
@@ -123,11 +122,9 @@ public class DebugUnemploymentPage {
                     System.out.println("ID: " + id);
                     System.out.println("Displayed: " + displayed);
                 } catch (Exception e) {
-                    // Skip
                 }
             }
 
-            // Wait to inspect manually if needed
             System.out.println("\n=== Waiting 30 seconds for manual inspection ===");
             Thread.sleep(30000);
 

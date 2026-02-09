@@ -69,7 +69,6 @@ public class InsuranceCalculatorPage extends BtlBasePage {
 
         dateInput.sendKeys(randomBirthDate);
 
-        // סגירת date picker
         dateInput.sendKeys(Keys.ENTER);
 
         System.out.println("תאריך לידה הוזן בהצלחה: " + randomBirthDate);

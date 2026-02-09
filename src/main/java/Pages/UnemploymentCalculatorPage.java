@@ -22,7 +22,6 @@ public class UnemploymentCalculatorPage extends BtlBasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         try {
-            // המתנה לטעינת הדף
             Thread.sleep(2000);
 
             String stopDate = LocalDate.now().minusDays(15).format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
